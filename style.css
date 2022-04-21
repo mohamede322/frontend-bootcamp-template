@@ -1,0 +1,15 @@
+body::before {
+  display: block;
+  content: "";
+  height: 72px;
+}
+@media (min-width: 768px) {
+  .news-letter {
+    width: 50%;
+  }
+  .sub-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+  }
+}
